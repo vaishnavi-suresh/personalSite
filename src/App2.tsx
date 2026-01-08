@@ -2,6 +2,12 @@
 export default function App() {
   const projects = [
     {
+      name: 'Virtual Receptionist Project',
+      description: 'AI phone agent to help users schedule appointments',
+      link: 'https://github.com/jamesxzhang1234/ai-receptionist/tree/main/src',
+      tech: ['Typescript', 'Node.js', 'Express', 'AI tools (Twilio calls, ElevenLabs, OpenAI realtime models)' ]
+    },
+    {
       name: 'Movie Recommendation System',
       description: 'Chatbot built with RAG pipeline to recommend movies based on natural langauge',
       link: 'https://github.com/swe-students-fall2025/5-final-smova/tree/main',
