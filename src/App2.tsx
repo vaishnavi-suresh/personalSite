@@ -2,6 +2,12 @@
 export default function App() {
   const projects = [
     {
+      name: 'Freelance Contract Negotiation App',
+      description: 'Web app that allows clients to interact with an agent to automatically create product requirements and allows freelancers to get feedback on submissions from a Critic agent',
+      link: 'https://github.com/yogyam/CVMongoDBHackathon',
+      tech: ['Typescript', 'Node.js', 'Express', 'Fireworks AI', 'MongoDB Atlas', 'Next JS' ]
+    },
+    {
       name: 'Virtual Receptionist Project',
       description: 'AI phone agent to help users schedule appointments',
       link: 'https://github.com/jamesxzhang1234/ai-receptionist/tree/main/src',
