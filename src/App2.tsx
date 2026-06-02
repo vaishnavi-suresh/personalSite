@@ -2,6 +2,18 @@
 export default function App() {
   const projects = [
     {
+      name: 'Chess Robot [In Progress]',
+      description: 'Physical chess robot that uses a custom chess engine to move pieces physically across a board with an electromagnet',
+      link: 'TBD',
+      tech: ['Raspberry Pi', 'Python', 'Chess Algorithms' ]
+    },
+    {
+      name: 'Therabot',
+      description: 'Web app that connects clients and therapists through a shared portal, with AI notetaking, video conferencing and transcription, and a therapeutic conversational bot to assist clients between sessions',
+      link: 'https://github.com/vaishnavi-suresh/therapyhub',
+      tech: ['Typescript', 'Node.js', 'Express', 'ElevenLabs', 'MongoDB', 'Vite', 'React', 'Auth0' ]
+    },
+    {
       name: 'Freelance Contract Negotiation App',
       description: 'Web app that allows clients to interact with an agent to automatically create product requirements and allows freelancers to get feedback on submissions from a Critic agent',
       link: 'https://github.com/yogyam/CVMongoDBHackathon',
